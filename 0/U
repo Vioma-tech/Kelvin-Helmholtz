@@ -35,6 +35,11 @@ boundaryField
         type            noSlip;
     }
 
+    topWall
+    {
+        type            noSlip;
+    }
+
     atmosphere
     {
         type            pressureInletOutletVelocity;

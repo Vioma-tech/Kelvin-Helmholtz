@@ -38,6 +38,12 @@ boundaryField
         value           uniform 0;
     }
 
+    topWall
+    {
+        type            fixedFluxPressure;
+        value           uniform 0;
+    }
+
     atmosphere
     {
         type            totalPressure;

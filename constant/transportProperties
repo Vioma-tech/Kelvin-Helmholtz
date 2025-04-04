@@ -19,14 +19,14 @@ phases          (water d_water);
 water
 {
     transportModel  Newtonian;
-    nu              0.5;
+    nu              1e-6;
     rho             1000;
 }
 
 d_water
 {
     transportModel  Newtonian;
-    nu              1;
+    nu              1e-6;
     rho             2000;
 }
 

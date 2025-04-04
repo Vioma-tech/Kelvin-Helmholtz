@@ -19,18 +19,18 @@ scale   1;
 vertices
 (
     (0 0 0)       // 0 - Bottom-left-front
-    (4 0 0)       // 1 - Bottom-right-front
-    (4 1 0)       // 2 - Top-right-front
+    (12 0 0)       // 1 - Bottom-right-front
+    (12 1 0)       // 2 - Top-right-front
     (0 1 0)       // 3 - Top-left-front
     (0 0 0.1)     // 4 - Bottom-left-back
-    (4 0 0.1)     // 5 - Bottom-right-back
-    (4 1 0.1)     // 6 - Top-right-back
+    (12 0 0.1)     // 5 - Bottom-right-back
+    (12 1 0.1)     // 6 - Top-right-back
     (0 1 0.1)     // 7 - Top-left-back
 );
 
 blocks
 (
-    hex (0 1 2 3 4 5 6 7) (40 10 6) simpleGrading (1 1 1)
+    hex (0 1 2 3 4 5 6 7) (120 10 6) simpleGrading (1 1 1)
 );
 
 edges
@@ -63,9 +63,9 @@ boundary
             (0 1 5 4)
         );
     }
-    atmosphere
+    topWall
     {
-        type patch;
+        type wall;
         faces
         (
             (3 7 6 2)
