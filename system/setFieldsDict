@@ -21,12 +21,13 @@ defaultFieldValues
 
 regions
 (
+    // Region for regular water at the top
     boxToCell
     {
-        box (0 0 -1) (4 0.5 1);
+        box (0 0.5 -1) (4 1 1);  // Upper half
         fieldValues
         (
-            volScalarFieldValue alpha.water 1
+            volScalarFieldValue alpha.water 1  // Full water in this region
         );
     }
 );
