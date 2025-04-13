@@ -27,7 +27,7 @@ d_water
 {
     transportModel  Newtonian;
     nu              1e-6;
-    rho             2000;
+    rho             1030;
 }
 
 sigma            0.07;

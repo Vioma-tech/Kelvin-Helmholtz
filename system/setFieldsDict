@@ -24,7 +24,7 @@ regions
     // Region for regular water at the top
     boxToCell
     {
-        box (0 0.5 -1) (12 1 1);  // Upper half
+        box (0 0.5 -1) (20 1 1);  // Upper half
         fieldValues
         (
             volScalarFieldValue alpha.water 1  // Full water in this region

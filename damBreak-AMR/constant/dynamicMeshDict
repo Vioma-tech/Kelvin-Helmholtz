@@ -30,7 +30,7 @@ dynamicRefineFvMeshCoeffs
     upperRefineLevel 0.9;
 
     // If value < unrefineLevel unrefine
-    unrefineLevel   0.001;
+    unrefineLevel   10;
 
     // Have slower than 2:1 refinement
     nBufferLayers   1;
